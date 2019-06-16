@@ -4,7 +4,13 @@
 
 # DRL - Multi-Agent DDPG Algorithm - Tennis Collaboration
 
-## Overview
+### Introduction 
+
+In this environment, two agents control rackets to bounce a ball over a net. If an agent hits the ball over the net, it receives a reward of +0.1. If an agent lets a ball hit the ground or hits the ball out of bounds, it receives a reward of -0.01. Thus, the goal of each agent is to keep the ball in play.
+
+The observation space consists of 24 variables corresponding to the position and velocity of the ball and racket. Each agent receives its own, local observation. 
+
+Two continuous actions are available, corresponding to movement toward (or away from) the net, and jumping.
 
 Using the Unity agent/environment "Tennis", this deep reinforcement learning task trains two AI agents to play tennis with each other in a cooperative way. The agents are rewarded for keeping the ball in play as long as possible. The task is considered solved when the average reward of the winning agent each episode hits 0.5 over 100 consecutive episodes.
 
